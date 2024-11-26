@@ -1,5 +1,0 @@
-[console_scripts]
-bezier_subscriber = jackal_bbl.bezier_subscriber:main
-follow = jackal_bbl.follower_node:main
-path_visualizer = jackal_bbl.path_visualizer:main
-start = jackal_bbl.start_node:main

@@ -1,7 +1,0 @@
-/home/mani123/jackal_ws/build/jackal_msgs/rosidl_adapter/jackal_msgs:msg/Drive.idl
-/home/mani123/jackal_ws/build/jackal_msgs/rosidl_adapter/jackal_msgs:msg/DriveFeedback.idl
-/home/mani123/jackal_ws/build/jackal_msgs/rosidl_adapter/jackal_msgs:msg/Feedback.idl
-/home/mani123/jackal_ws/build/jackal_msgs/rosidl_adapter/jackal_msgs:msg/Power.idl
-/home/mani123/jackal_ws/build/jackal_msgs/rosidl_adapter/jackal_msgs:msg/Status.idl
-/home/mani123/jackal_ws/build/jackal_msgs/rosidl_adapter/jackal_msgs:msg/StopStatus.idl
-/home/mani123/jackal_ws/build/jackal_msgs/rosidl_adapter/jackal_msgs:srv/SetDomainId.idl
