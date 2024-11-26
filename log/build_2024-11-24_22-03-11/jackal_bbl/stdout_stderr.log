@@ -1,0 +1,71 @@
+/home/mani123/anaconda3/envs/ros2_env/lib/python3.8/site-packages/setuptools/dist.py:495: SetuptoolsDeprecationWarning: Invalid dash-separated options
+!!
+
+        ********************************************************************************
+        Usage of dash-separated 'script-dir' will not be supported in future
+        versions. Please use the underscore name 'script_dir' instead.
+
+        By 2025-Mar-03, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+        ********************************************************************************
+
+!!
+  opt = self.warn_dash_deprecation(opt, section)
+/home/mani123/anaconda3/envs/ros2_env/lib/python3.8/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+creating ../../build/jackal_bbl/jackal_bbl.egg-info
+writing ../../build/jackal_bbl/jackal_bbl.egg-info/PKG-INFO
+writing dependency_links to ../../build/jackal_bbl/jackal_bbl.egg-info/dependency_links.txt
+writing entry points to ../../build/jackal_bbl/jackal_bbl.egg-info/entry_points.txt
+writing requirements to ../../build/jackal_bbl/jackal_bbl.egg-info/requires.txt
+writing top-level names to ../../build/jackal_bbl/jackal_bbl.egg-info/top_level.txt
+writing manifest file '../../build/jackal_bbl/jackal_bbl.egg-info/SOURCES.txt'
+reading manifest file '../../build/jackal_bbl/jackal_bbl.egg-info/SOURCES.txt'
+writing manifest file '../../build/jackal_bbl/jackal_bbl.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mani123/jackal_ws/build/jackal_bbl/build/lib/jackal_bbl
+copying jackal_bbl/__init__.py -> /home/mani123/jackal_ws/build/jackal_bbl/build/lib/jackal_bbl
+copying jackal_bbl/jackal_viz.launch.py -> /home/mani123/jackal_ws/build/jackal_bbl/build/lib/jackal_bbl
+copying jackal_bbl/start_node.py -> /home/mani123/jackal_ws/build/jackal_bbl/build/lib/jackal_bbl
+copying jackal_bbl/follower_node.py -> /home/mani123/jackal_ws/build/jackal_bbl/build/lib/jackal_bbl
+copying jackal_bbl/bezier_subscriber.py -> /home/mani123/jackal_ws/build/jackal_bbl/build/lib/jackal_bbl
+copying jackal_bbl/path_visualizer.py -> /home/mani123/jackal_ws/build/jackal_bbl/build/lib/jackal_bbl
+running install
+running install_lib
+creating /home/mani123/jackal_ws/install/jackal_bbl/lib/python3.8/site-packages/jackal_bbl
+copying /home/mani123/jackal_ws/build/jackal_bbl/build/lib/jackal_bbl/__init__.py -> /home/mani123/jackal_ws/install/jackal_bbl/lib/python3.8/site-packages/jackal_bbl
+copying /home/mani123/jackal_ws/build/jackal_bbl/build/lib/jackal_bbl/jackal_viz.launch.py -> /home/mani123/jackal_ws/install/jackal_bbl/lib/python3.8/site-packages/jackal_bbl
+copying /home/mani123/jackal_ws/build/jackal_bbl/build/lib/jackal_bbl/start_node.py -> /home/mani123/jackal_ws/install/jackal_bbl/lib/python3.8/site-packages/jackal_bbl
+copying /home/mani123/jackal_ws/build/jackal_bbl/build/lib/jackal_bbl/follower_node.py -> /home/mani123/jackal_ws/install/jackal_bbl/lib/python3.8/site-packages/jackal_bbl
+copying /home/mani123/jackal_ws/build/jackal_bbl/build/lib/jackal_bbl/bezier_subscriber.py -> /home/mani123/jackal_ws/install/jackal_bbl/lib/python3.8/site-packages/jackal_bbl
+copying /home/mani123/jackal_ws/build/jackal_bbl/build/lib/jackal_bbl/path_visualizer.py -> /home/mani123/jackal_ws/install/jackal_bbl/lib/python3.8/site-packages/jackal_bbl
+byte-compiling /home/mani123/jackal_ws/install/jackal_bbl/lib/python3.8/site-packages/jackal_bbl/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/mani123/jackal_ws/install/jackal_bbl/lib/python3.8/site-packages/jackal_bbl/jackal_viz.launch.py to jackal_viz.launch.cpython-38.pyc
+byte-compiling /home/mani123/jackal_ws/install/jackal_bbl/lib/python3.8/site-packages/jackal_bbl/start_node.py to start_node.cpython-38.pyc
+byte-compiling /home/mani123/jackal_ws/install/jackal_bbl/lib/python3.8/site-packages/jackal_bbl/follower_node.py to follower_node.cpython-38.pyc
+byte-compiling /home/mani123/jackal_ws/install/jackal_bbl/lib/python3.8/site-packages/jackal_bbl/bezier_subscriber.py to bezier_subscriber.cpython-38.pyc
+byte-compiling /home/mani123/jackal_ws/install/jackal_bbl/lib/python3.8/site-packages/jackal_bbl/path_visualizer.py to path_visualizer.cpython-38.pyc
+running install_data
+creating /home/mani123/jackal_ws/install/jackal_bbl/share/ament_index/resource_index/packages
+copying resource/jackal_bbl -> /home/mani123/jackal_ws/install/jackal_bbl/share/ament_index/resource_index/packages
+copying package.xml -> /home/mani123/jackal_ws/install/jackal_bbl/share/jackal_bbl
+creating /home/mani123/jackal_ws/install/jackal_bbl/share/jackal_bbl/launch
+copying launch/jackal_viz.launch.py -> /home/mani123/jackal_ws/install/jackal_bbl/share/jackal_bbl/launch
+creating /home/mani123/jackal_ws/install/jackal_bbl/share/jackal_bbl/rviz
+creating /home/mani123/jackal_ws/install/jackal_bbl/share/jackal_bbl/urdf
+copying urdf/jackal.urdf.xacro -> /home/mani123/jackal_ws/install/jackal_bbl/share/jackal_bbl/urdf
+creating /home/mani123/jackal_ws/install/jackal_bbl/share/jackal_bbl/meshes
+creating /home/mani123/jackal_ws/install/jackal_bbl/share/jackal_bbl/config
+copying config/jackal_config.rviz -> /home/mani123/jackal_ws/install/jackal_bbl/share/jackal_bbl/config
+running install_egg_info
+Copying ../../build/jackal_bbl/jackal_bbl.egg-info to /home/mani123/jackal_ws/install/jackal_bbl/lib/python3.8/site-packages/jackal_bbl-0.0.0-py3.8.egg-info
+running install_scripts
+Installing bezier_subscriber script to /home/mani123/jackal_ws/install/jackal_bbl/lib/jackal_bbl
+Installing follow script to /home/mani123/jackal_ws/install/jackal_bbl/lib/jackal_bbl
+Installing path_visualizer script to /home/mani123/jackal_ws/install/jackal_bbl/lib/jackal_bbl
+Installing start script to /home/mani123/jackal_ws/install/jackal_bbl/lib/jackal_bbl
+writing list of installed files to '/home/mani123/jackal_ws/build/jackal_bbl/install.log'

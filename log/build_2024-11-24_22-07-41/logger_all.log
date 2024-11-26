@@ -1,0 +1,679 @@
+[0.163s] DEBUG:colcon:Command line arguments: ['/home/mani123/anaconda3/envs/ros2_env/bin/colcon', 'build']
+[0.163s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7809a05310>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7809a05310>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7809a05820>)
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.208s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mani123/jackal_ws'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'ros'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extensions ['cmake', 'python']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'cmake'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'python'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extensions ['python_setup_py']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'python_setup_py'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extension 'ros'
+[0.243s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jackal/jackal_control' with type 'ros.ament_cmake' and name 'jackal_control'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extension 'ros'
+[0.244s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jackal/jackal_description' with type 'ros.ament_cmake' and name 'jackal_description'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extension 'ros'
+[0.245s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jackal/jackal_msgs' with type 'ros.ament_cmake' and name 'jackal_msgs'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extension 'ros'
+[0.246s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jackal/jackal_navigation' with type 'ros.ament_cmake' and name 'jackal_navigation'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_bbl) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_bbl) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_bbl) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_bbl) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_bbl) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_bbl) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_bbl) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_bbl) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_bbl) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jackal_bbl' with type 'ros.ament_python' and name 'jackal_bbl'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop) by extensions ['cmake', 'python']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop) by extension 'cmake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop) by extension 'python'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop) by extensions ['python_setup_py']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop) by extension 'python_setup_py'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_desktop) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_desktop) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_desktop) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_desktop) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_desktop) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_desktop) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_desktop) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_desktop) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_desktop) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jackal_desktop/jackal_desktop' with type 'ros.ament_cmake' and name 'jackal_desktop'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_viz) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_viz) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_viz) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_viz) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_viz) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_viz) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_viz) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_viz) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_desktop/jackal_viz) by extension 'ros'
+[0.251s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jackal_desktop/jackal_viz' with type 'ros.ament_cmake' and name 'jackal_viz'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator) by extension 'ros'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator) by extensions ['cmake', 'python']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator) by extension 'cmake'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator) by extension 'python'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator) by extensions ['python_setup_py']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator) by extension 'python_setup_py'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_gazebo) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_gazebo) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_gazebo) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_gazebo) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_gazebo) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_gazebo) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_gazebo) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_gazebo) by extension 'ros'
+[0.253s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jackal_simulator/jackal_gazebo' with type 'ros.ament_cmake' and name 'jackal_gazebo'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_simulator) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_simulator) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_simulator) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_simulator) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_simulator) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_simulator) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_simulator) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_simulator/jackal_simulator) by extension 'ros'
+[0.254s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jackal_simulator/jackal_simulator' with type 'ros.ament_cmake' and name 'jackal_simulator'
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'jackal_description' build argument 'cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'jackal_description' build argument 'cmake_target' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'jackal_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'jackal_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'jackal_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'jackal_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'jackal_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'jackal_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'jackal_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.274s] DEBUG:colcon.colcon_core.verb:Building package 'jackal_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mani123/jackal_ws/build/jackal_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mani123/jackal_ws/install/jackal_description', 'merge_install': False, 'path': '/home/mani123/jackal_ws/src/jackal/jackal_description', 'symlink_install': False, 'test_result_base': None}
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'jackal_msgs' build argument 'cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'jackal_msgs' build argument 'cmake_target' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'jackal_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'jackal_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'jackal_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'jackal_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'jackal_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'jackal_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'jackal_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.274s] DEBUG:colcon.colcon_core.verb:Building package 'jackal_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mani123/jackal_ws/build/jackal_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mani123/jackal_ws/install/jackal_msgs', 'merge_install': False, 'path': '/home/mani123/jackal_ws/src/jackal/jackal_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'jackal_navigation' build argument 'cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'jackal_navigation' build argument 'cmake_target' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'jackal_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'jackal_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'jackal_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'jackal_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'jackal_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'jackal_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'jackal_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.275s] DEBUG:colcon.colcon_core.verb:Building package 'jackal_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mani123/jackal_ws/build/jackal_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mani123/jackal_ws/install/jackal_navigation', 'merge_install': False, 'path': '/home/mani123/jackal_ws/src/jackal/jackal_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'jackal_control' build argument 'cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'jackal_control' build argument 'cmake_target' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'jackal_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'jackal_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'jackal_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'jackal_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'jackal_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'jackal_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'jackal_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.275s] DEBUG:colcon.colcon_core.verb:Building package 'jackal_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mani123/jackal_ws/build/jackal_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mani123/jackal_ws/install/jackal_control', 'merge_install': False, 'path': '/home/mani123/jackal_ws/src/jackal/jackal_control', 'symlink_install': False, 'test_result_base': None}
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'jackal_viz' build argument 'cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'jackal_viz' build argument 'cmake_target' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'jackal_viz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'jackal_viz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'jackal_viz' build argument 'cmake_clean_first' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'jackal_viz' build argument 'cmake_force_configure' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'jackal_viz' build argument 'ament_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'jackal_viz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'jackal_viz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.276s] DEBUG:colcon.colcon_core.verb:Building package 'jackal_viz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mani123/jackal_ws/build/jackal_viz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mani123/jackal_ws/install/jackal_viz', 'merge_install': False, 'path': '/home/mani123/jackal_ws/src/jackal_desktop/jackal_viz', 'symlink_install': False, 'test_result_base': None}
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'jackal_bbl' build argument 'cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'jackal_bbl' build argument 'cmake_target' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'jackal_bbl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'jackal_bbl' build argument 'cmake_clean_cache' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'jackal_bbl' build argument 'cmake_clean_first' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'jackal_bbl' build argument 'cmake_force_configure' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'jackal_bbl' build argument 'ament_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'jackal_bbl' build argument 'catkin_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'jackal_bbl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.277s] DEBUG:colcon.colcon_core.verb:Building package 'jackal_bbl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mani123/jackal_ws/build/jackal_bbl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mani123/jackal_ws/install/jackal_bbl', 'merge_install': False, 'path': '/home/mani123/jackal_ws/src/jackal_bbl', 'symlink_install': False, 'test_result_base': None}
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'jackal_desktop' build argument 'cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'jackal_desktop' build argument 'cmake_target' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'jackal_desktop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'jackal_desktop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'jackal_desktop' build argument 'cmake_clean_first' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'jackal_desktop' build argument 'cmake_force_configure' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'jackal_desktop' build argument 'ament_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'jackal_desktop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'jackal_desktop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.278s] DEBUG:colcon.colcon_core.verb:Building package 'jackal_desktop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mani123/jackal_ws/build/jackal_desktop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mani123/jackal_ws/install/jackal_desktop', 'merge_install': False, 'path': '/home/mani123/jackal_ws/src/jackal_desktop/jackal_desktop', 'symlink_install': False, 'test_result_base': None}
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'jackal_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'jackal_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'jackal_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'jackal_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'jackal_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'jackal_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'jackal_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'jackal_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'jackal_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.278s] DEBUG:colcon.colcon_core.verb:Building package 'jackal_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mani123/jackal_ws/build/jackal_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mani123/jackal_ws/install/jackal_gazebo', 'merge_install': False, 'path': '/home/mani123/jackal_ws/src/jackal_simulator/jackal_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'jackal_simulator' build argument 'cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'jackal_simulator' build argument 'cmake_target' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'jackal_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'jackal_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'jackal_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'jackal_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'jackal_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'jackal_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'jackal_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.279s] DEBUG:colcon.colcon_core.verb:Building package 'jackal_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mani123/jackal_ws/build/jackal_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mani123/jackal_ws/install/jackal_simulator', 'merge_install': False, 'path': '/home/mani123/jackal_ws/src/jackal_simulator/jackal_simulator', 'symlink_install': False, 'test_result_base': None}
+[0.279s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.280s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.280s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mani123/jackal_ws/src/jackal/jackal_description' with build type 'ament_cmake'
+[0.280s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mani123/jackal_ws/src/jackal/jackal_description'
+[0.283s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.284s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.284s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.297s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mani123/jackal_ws/src/jackal/jackal_msgs' with build type 'ament_cmake'
+[0.298s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mani123/jackal_ws/src/jackal/jackal_msgs'
+[0.298s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.298s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.313s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mani123/jackal_ws/src/jackal/jackal_navigation' with build type 'ament_cmake'
+[0.313s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mani123/jackal_ws/src/jackal/jackal_navigation'
+[0.314s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.314s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mani123/jackal_ws/build/jackal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --build /home/mani123/jackal_ws/build/jackal_description -- -j6 -l6
+[0.347s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mani123/jackal_ws/build/jackal_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --build /home/mani123/jackal_ws/build/jackal_msgs -- -j6 -l6
+[0.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mani123/jackal_ws/build/jackal_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --build /home/mani123/jackal_ws/build/jackal_navigation -- -j6 -l6
+[0.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mani123/jackal_ws/build/jackal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --build /home/mani123/jackal_ws/build/jackal_description -- -j6 -l6
+[0.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mani123/jackal_ws/build/jackal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --install /home/mani123/jackal_ws/build/jackal_description
+[0.469s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jackal_description)
+[0.472s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_description' for CMake module files
+[0.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mani123/jackal_ws/build/jackal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --install /home/mani123/jackal_ws/build/jackal_description
+[0.473s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_description' for CMake config files
+[0.473s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_description', 'cmake_prefix_path')
+[0.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_description/share/jackal_description/hook/cmake_prefix_path.ps1'
+[0.474s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mani123/jackal_ws/install/jackal_description/share/jackal_description/hook/cmake_prefix_path.dsv'
+[0.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_description/share/jackal_description/hook/cmake_prefix_path.sh'
+[0.475s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_description/bin'
+[0.476s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_description/lib/pkgconfig/jackal_description.pc'
+[0.476s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_description/lib/python3.8/site-packages'
+[0.476s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_description/bin'
+[0.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_description/share/jackal_description/package.ps1'
+[0.477s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mani123/jackal_ws/install/jackal_description/share/jackal_description/package.dsv'
+[0.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_description/share/jackal_description/package.sh'
+[0.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_description/share/jackal_description/package.bash'
+[0.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_description/share/jackal_description/package.zsh'
+[0.493s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mani123/jackal_ws/install/jackal_description/share/colcon-core/packages/jackal_description)
+[0.494s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jackal_description)
+[0.494s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_description' for CMake module files
+[0.494s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_description' for CMake config files
+[0.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_description', 'cmake_prefix_path')
+[0.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_description/share/jackal_description/hook/cmake_prefix_path.ps1'
+[0.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mani123/jackal_ws/install/jackal_description/share/jackal_description/hook/cmake_prefix_path.dsv'
+[0.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_description/share/jackal_description/hook/cmake_prefix_path.sh'
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_description/bin'
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_description/lib/pkgconfig/jackal_description.pc'
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_description/lib/python3.8/site-packages'
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_description/bin'
+[0.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_description/share/jackal_description/package.ps1'
+[0.498s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mani123/jackal_ws/install/jackal_description/share/jackal_description/package.dsv'
+[0.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_description/share/jackal_description/package.sh'
+[0.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_description/share/jackal_description/package.bash'
+[0.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_description/share/jackal_description/package.zsh'
+[0.500s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mani123/jackal_ws/install/jackal_description/share/colcon-core/packages/jackal_description)
+[0.502s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mani123/jackal_ws/src/jackal/jackal_control' with build type 'ament_cmake'
+[0.502s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mani123/jackal_ws/src/jackal/jackal_control'
+[0.503s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.503s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.516s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mani123/jackal_ws/src/jackal_desktop/jackal_viz' with build type 'ament_cmake'
+[0.516s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mani123/jackal_ws/src/jackal_desktop/jackal_viz'
+[0.517s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.517s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mani123/jackal_ws/build/jackal_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --build /home/mani123/jackal_ws/build/jackal_navigation -- -j6 -l6
+[0.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mani123/jackal_ws/build/jackal_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --install /home/mani123/jackal_ws/build/jackal_navigation
+[0.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mani123/jackal_ws/build/jackal_control': CMAKE_PREFIX_PATH=/home/mani123/jackal_ws/install/jackal_description:/home/mani123/jackal_ws/install/jackal_desktop:/home/mani123/jackal_ws/install/jackal_viz:/home/mani123/jackal_ws/install/jackal_simulator:/home/mani123/jackal_ws/install/jackal_navigation:/home/mani123/jackal_ws/install/jackal_msgs:/home/mani123/jackal_ws/install/jackal_gazebo:/home/mani123/jackal_ws/install/jackal_control:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --build /home/mani123/jackal_ws/build/jackal_control -- -j6 -l6
+[0.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mani123/jackal_ws/build/jackal_viz': CMAKE_PREFIX_PATH=/home/mani123/jackal_ws/install/jackal_description:/home/mani123/jackal_ws/install/jackal_desktop:/home/mani123/jackal_ws/install/jackal_viz:/home/mani123/jackal_ws/install/jackal_simulator:/home/mani123/jackal_ws/install/jackal_navigation:/home/mani123/jackal_ws/install/jackal_msgs:/home/mani123/jackal_ws/install/jackal_gazebo:/home/mani123/jackal_ws/install/jackal_control:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --build /home/mani123/jackal_ws/build/jackal_viz -- -j6 -l6
+[0.560s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jackal_navigation)
+[0.561s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_navigation' for CMake module files
+[0.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mani123/jackal_ws/build/jackal_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --install /home/mani123/jackal_ws/build/jackal_navigation
+[0.562s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_navigation' for CMake config files
+[0.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_navigation', 'cmake_prefix_path')
+[0.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_navigation/share/jackal_navigation/hook/cmake_prefix_path.ps1'
+[0.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mani123/jackal_ws/install/jackal_navigation/share/jackal_navigation/hook/cmake_prefix_path.dsv'
+[0.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_navigation/share/jackal_navigation/hook/cmake_prefix_path.sh'
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_navigation/bin'
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_navigation/lib/pkgconfig/jackal_navigation.pc'
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_navigation/lib/python3.8/site-packages'
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_navigation/bin'
+[0.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_navigation/share/jackal_navigation/package.ps1'
+[0.565s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mani123/jackal_ws/install/jackal_navigation/share/jackal_navigation/package.dsv'
+[0.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_navigation/share/jackal_navigation/package.sh'
+[0.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_navigation/share/jackal_navigation/package.bash'
+[0.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_navigation/share/jackal_navigation/package.zsh'
+[0.567s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mani123/jackal_ws/install/jackal_navigation/share/colcon-core/packages/jackal_navigation)
+[0.568s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jackal_navigation)
+[0.568s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_navigation' for CMake module files
+[0.569s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_navigation' for CMake config files
+[0.569s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_navigation', 'cmake_prefix_path')
+[0.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_navigation/share/jackal_navigation/hook/cmake_prefix_path.ps1'
+[0.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mani123/jackal_ws/install/jackal_navigation/share/jackal_navigation/hook/cmake_prefix_path.dsv'
+[0.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_navigation/share/jackal_navigation/hook/cmake_prefix_path.sh'
+[0.571s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_navigation/bin'
+[0.571s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_navigation/lib/pkgconfig/jackal_navigation.pc'
+[0.571s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_navigation/lib/python3.8/site-packages'
+[0.571s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_navigation/bin'
+[0.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_navigation/share/jackal_navigation/package.ps1'
+[0.572s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mani123/jackal_ws/install/jackal_navigation/share/jackal_navigation/package.dsv'
+[0.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_navigation/share/jackal_navigation/package.sh'
+[0.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_navigation/share/jackal_navigation/package.bash'
+[0.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_navigation/share/jackal_navigation/package.zsh'
+[0.574s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mani123/jackal_ws/install/jackal_navigation/share/colcon-core/packages/jackal_navigation)
+[0.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mani123/jackal_ws/build/jackal_control' returned '0': CMAKE_PREFIX_PATH=/home/mani123/jackal_ws/install/jackal_description:/home/mani123/jackal_ws/install/jackal_desktop:/home/mani123/jackal_ws/install/jackal_viz:/home/mani123/jackal_ws/install/jackal_simulator:/home/mani123/jackal_ws/install/jackal_navigation:/home/mani123/jackal_ws/install/jackal_msgs:/home/mani123/jackal_ws/install/jackal_gazebo:/home/mani123/jackal_ws/install/jackal_control:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --build /home/mani123/jackal_ws/build/jackal_control -- -j6 -l6
+[0.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mani123/jackal_ws/build/jackal_control': CMAKE_PREFIX_PATH=/home/mani123/jackal_ws/install/jackal_description:/home/mani123/jackal_ws/install/jackal_desktop:/home/mani123/jackal_ws/install/jackal_viz:/home/mani123/jackal_ws/install/jackal_simulator:/home/mani123/jackal_ws/install/jackal_navigation:/home/mani123/jackal_ws/install/jackal_msgs:/home/mani123/jackal_ws/install/jackal_gazebo:/home/mani123/jackal_ws/install/jackal_control:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --install /home/mani123/jackal_ws/build/jackal_control
+[0.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mani123/jackal_ws/build/jackal_viz' returned '0': CMAKE_PREFIX_PATH=/home/mani123/jackal_ws/install/jackal_description:/home/mani123/jackal_ws/install/jackal_desktop:/home/mani123/jackal_ws/install/jackal_viz:/home/mani123/jackal_ws/install/jackal_simulator:/home/mani123/jackal_ws/install/jackal_navigation:/home/mani123/jackal_ws/install/jackal_msgs:/home/mani123/jackal_ws/install/jackal_gazebo:/home/mani123/jackal_ws/install/jackal_control:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --build /home/mani123/jackal_ws/build/jackal_viz -- -j6 -l6
+[0.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mani123/jackal_ws/build/jackal_viz': CMAKE_PREFIX_PATH=/home/mani123/jackal_ws/install/jackal_description:/home/mani123/jackal_ws/install/jackal_desktop:/home/mani123/jackal_ws/install/jackal_viz:/home/mani123/jackal_ws/install/jackal_simulator:/home/mani123/jackal_ws/install/jackal_navigation:/home/mani123/jackal_ws/install/jackal_msgs:/home/mani123/jackal_ws/install/jackal_gazebo:/home/mani123/jackal_ws/install/jackal_control:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --install /home/mani123/jackal_ws/build/jackal_viz
+[0.656s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jackal_control)
+[0.657s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_control' for CMake module files
+[0.657s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_control' for CMake config files
+[0.658s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_control', 'cmake_prefix_path')
+[0.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_control/share/jackal_control/hook/cmake_prefix_path.ps1'
+[0.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mani123/jackal_ws/install/jackal_control/share/jackal_control/hook/cmake_prefix_path.dsv'
+[0.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_control/share/jackal_control/hook/cmake_prefix_path.sh'
+[0.660s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_control/bin'
+[0.660s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_control/lib/pkgconfig/jackal_control.pc'
+[0.660s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_control/lib/python3.8/site-packages'
+[0.661s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_control/bin'
+[0.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_control/share/jackal_control/package.ps1'
+[0.661s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mani123/jackal_ws/install/jackal_control/share/jackal_control/package.dsv'
+[0.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_control/share/jackal_control/package.sh'
+[0.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_control/share/jackal_control/package.bash'
+[0.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_control/share/jackal_control/package.zsh'
+[0.663s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mani123/jackal_ws/install/jackal_control/share/colcon-core/packages/jackal_control)
+[0.664s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jackal_control)
+[0.664s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_control' for CMake module files
+[0.664s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_control' for CMake config files
+[0.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_control', 'cmake_prefix_path')
+[0.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_control/share/jackal_control/hook/cmake_prefix_path.ps1'
+[0.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mani123/jackal_ws/build/jackal_control' returned '0': CMAKE_PREFIX_PATH=/home/mani123/jackal_ws/install/jackal_description:/home/mani123/jackal_ws/install/jackal_desktop:/home/mani123/jackal_ws/install/jackal_viz:/home/mani123/jackal_ws/install/jackal_simulator:/home/mani123/jackal_ws/install/jackal_navigation:/home/mani123/jackal_ws/install/jackal_msgs:/home/mani123/jackal_ws/install/jackal_gazebo:/home/mani123/jackal_ws/install/jackal_control:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --install /home/mani123/jackal_ws/build/jackal_control
+[0.669s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mani123/jackal_ws/install/jackal_control/share/jackal_control/hook/cmake_prefix_path.dsv'
+[0.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_control/share/jackal_control/hook/cmake_prefix_path.sh'
+[0.670s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_control/bin'
+[0.670s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_control/lib/pkgconfig/jackal_control.pc'
+[0.670s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_control/lib/python3.8/site-packages'
+[0.670s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_control/bin'
+[0.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_control/share/jackal_control/package.ps1'
+[0.671s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mani123/jackal_ws/install/jackal_control/share/jackal_control/package.dsv'
+[0.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_control/share/jackal_control/package.sh'
+[0.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_control/share/jackal_control/package.bash'
+[0.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_control/share/jackal_control/package.zsh'
+[0.673s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mani123/jackal_ws/install/jackal_control/share/colcon-core/packages/jackal_control)
+[0.677s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mani123/jackal_ws/src/jackal_simulator/jackal_gazebo' with build type 'ament_cmake'
+[0.677s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mani123/jackal_ws/src/jackal_simulator/jackal_gazebo'
+[0.678s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.678s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.689s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jackal_viz)
+[0.690s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mani123/jackal_ws/build/jackal_viz' returned '0': CMAKE_PREFIX_PATH=/home/mani123/jackal_ws/install/jackal_description:/home/mani123/jackal_ws/install/jackal_desktop:/home/mani123/jackal_ws/install/jackal_viz:/home/mani123/jackal_ws/install/jackal_simulator:/home/mani123/jackal_ws/install/jackal_navigation:/home/mani123/jackal_ws/install/jackal_msgs:/home/mani123/jackal_ws/install/jackal_gazebo:/home/mani123/jackal_ws/install/jackal_control:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --install /home/mani123/jackal_ws/build/jackal_viz
+[0.690s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_viz' for CMake module files
+[0.691s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_viz' for CMake config files
+[0.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_viz', 'cmake_prefix_path')
+[0.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_viz/share/jackal_viz/hook/cmake_prefix_path.ps1'
+[0.692s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mani123/jackal_ws/install/jackal_viz/share/jackal_viz/hook/cmake_prefix_path.dsv'
+[0.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_viz/share/jackal_viz/hook/cmake_prefix_path.sh'
+[0.693s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_viz/bin'
+[0.693s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_viz/lib/pkgconfig/jackal_viz.pc'
+[0.694s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_viz/lib/python3.8/site-packages'
+[0.694s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_viz/bin'
+[0.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_viz/share/jackal_viz/package.ps1'
+[0.694s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mani123/jackal_ws/install/jackal_viz/share/jackal_viz/package.dsv'
+[0.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_viz/share/jackal_viz/package.sh'
+[0.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_viz/share/jackal_viz/package.bash'
+[0.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_viz/share/jackal_viz/package.zsh'
+[0.696s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mani123/jackal_ws/install/jackal_viz/share/colcon-core/packages/jackal_viz)
+[0.697s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jackal_viz)
+[0.697s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_viz' for CMake module files
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_viz' for CMake config files
+[0.699s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_viz', 'cmake_prefix_path')
+[0.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_viz/share/jackal_viz/hook/cmake_prefix_path.ps1'
+[0.699s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mani123/jackal_ws/install/jackal_viz/share/jackal_viz/hook/cmake_prefix_path.dsv'
+[0.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_viz/share/jackal_viz/hook/cmake_prefix_path.sh'
+[0.700s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_viz/bin'
+[0.700s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_viz/lib/pkgconfig/jackal_viz.pc'
+[0.700s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_viz/lib/python3.8/site-packages'
+[0.701s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_viz/bin'
+[0.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_viz/share/jackal_viz/package.ps1'
+[0.702s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mani123/jackal_ws/install/jackal_viz/share/jackal_viz/package.dsv'
+[0.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_viz/share/jackal_viz/package.sh'
+[0.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_viz/share/jackal_viz/package.bash'
+[0.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_viz/share/jackal_viz/package.zsh'
+[0.704s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mani123/jackal_ws/install/jackal_viz/share/colcon-core/packages/jackal_viz)
+[0.708s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mani123/jackal_ws/src/jackal_bbl' with build type 'ament_python'
+[0.708s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_bbl', 'ament_prefix_path')
+[0.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_bbl/share/jackal_bbl/hook/ament_prefix_path.ps1'
+[0.709s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mani123/jackal_ws/install/jackal_bbl/share/jackal_bbl/hook/ament_prefix_path.dsv'
+[0.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_bbl/share/jackal_bbl/hook/ament_prefix_path.sh'
+[0.710s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.710s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mani123/jackal_ws/build/jackal_gazebo': CMAKE_PREFIX_PATH=/home/mani123/jackal_ws/install/jackal_control:/home/mani123/jackal_ws/install/jackal_description:/home/mani123/jackal_ws/install/jackal_desktop:/home/mani123/jackal_ws/install/jackal_viz:/home/mani123/jackal_ws/install/jackal_simulator:/home/mani123/jackal_ws/install/jackal_navigation:/home/mani123/jackal_ws/install/jackal_msgs:/home/mani123/jackal_ws/install/jackal_gazebo:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --build /home/mani123/jackal_ws/build/jackal_gazebo -- -j6 -l6
+[0.957s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mani123/jackal_ws/src/jackal_bbl'
+[0.958s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.958s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mani123/jackal_ws/build/jackal_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/mani123/jackal_ws/install/jackal_control:/home/mani123/jackal_ws/install/jackal_description:/home/mani123/jackal_ws/install/jackal_desktop:/home/mani123/jackal_ws/install/jackal_viz:/home/mani123/jackal_ws/install/jackal_simulator:/home/mani123/jackal_ws/install/jackal_navigation:/home/mani123/jackal_ws/install/jackal_msgs:/home/mani123/jackal_ws/install/jackal_gazebo:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --build /home/mani123/jackal_ws/build/jackal_gazebo -- -j6 -l6
+[0.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mani123/jackal_ws/build/jackal_gazebo': CMAKE_PREFIX_PATH=/home/mani123/jackal_ws/install/jackal_control:/home/mani123/jackal_ws/install/jackal_description:/home/mani123/jackal_ws/install/jackal_desktop:/home/mani123/jackal_ws/install/jackal_viz:/home/mani123/jackal_ws/install/jackal_simulator:/home/mani123/jackal_ws/install/jackal_navigation:/home/mani123/jackal_ws/install/jackal_msgs:/home/mani123/jackal_ws/install/jackal_gazebo:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --install /home/mani123/jackal_ws/build/jackal_gazebo
+[1.010s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jackal_gazebo)
+[1.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mani123/jackal_ws/build/jackal_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/mani123/jackal_ws/install/jackal_control:/home/mani123/jackal_ws/install/jackal_description:/home/mani123/jackal_ws/install/jackal_desktop:/home/mani123/jackal_ws/install/jackal_viz:/home/mani123/jackal_ws/install/jackal_simulator:/home/mani123/jackal_ws/install/jackal_navigation:/home/mani123/jackal_ws/install/jackal_msgs:/home/mani123/jackal_ws/install/jackal_gazebo:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --install /home/mani123/jackal_ws/build/jackal_gazebo
+[1.011s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_gazebo' for CMake module files
+[1.011s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_gazebo' for CMake config files
+[1.012s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_gazebo', 'cmake_prefix_path')
+[1.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/hook/cmake_prefix_path.ps1'
+[1.012s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mani123/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/hook/cmake_prefix_path.dsv'
+[1.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/hook/cmake_prefix_path.sh'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_gazebo/bin'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_gazebo/lib/pkgconfig/jackal_gazebo.pc'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_gazebo/lib/python3.8/site-packages'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_gazebo/bin'
+[1.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/package.ps1'
+[1.015s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mani123/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/package.dsv'
+[1.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/package.sh'
+[1.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/package.bash'
+[1.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/package.zsh'
+[1.016s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mani123/jackal_ws/install/jackal_gazebo/share/colcon-core/packages/jackal_gazebo)
+[1.017s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jackal_gazebo)
+[1.017s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_gazebo' for CMake module files
+[1.017s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_gazebo' for CMake config files
+[1.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_gazebo', 'cmake_prefix_path')
+[1.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/hook/cmake_prefix_path.ps1'
+[1.018s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mani123/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/hook/cmake_prefix_path.dsv'
+[1.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/hook/cmake_prefix_path.sh'
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_gazebo/bin'
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_gazebo/lib/pkgconfig/jackal_gazebo.pc'
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_gazebo/lib/python3.8/site-packages'
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_gazebo/bin'
+[1.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/package.ps1'
+[1.020s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mani123/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/package.dsv'
+[1.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/package.sh'
+[1.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/package.bash'
+[1.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_gazebo/share/jackal_gazebo/package.zsh'
+[1.023s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mani123/jackal_ws/install/jackal_gazebo/share/colcon-core/packages/jackal_gazebo)
+[1.030s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mani123/jackal_ws/src/jackal_simulator/jackal_simulator' with build type 'ament_cmake'
+[1.031s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mani123/jackal_ws/src/jackal_simulator/jackal_simulator'
+[1.031s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.031s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.069s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mani123/jackal_ws/build/jackal_simulator': CMAKE_PREFIX_PATH=/home/mani123/jackal_ws/install/jackal_gazebo:/home/mani123/jackal_ws/install/jackal_control:/home/mani123/jackal_ws/install/jackal_description:/home/mani123/jackal_ws/install/jackal_desktop:/home/mani123/jackal_ws/install/jackal_viz:/home/mani123/jackal_ws/install/jackal_simulator:/home/mani123/jackal_ws/install/jackal_navigation:/home/mani123/jackal_ws/install/jackal_msgs:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --build /home/mani123/jackal_ws/build/jackal_simulator -- -j6 -l6
+[1.167s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mani123/jackal_ws/build/jackal_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --build /home/mani123/jackal_ws/build/jackal_msgs -- -j6 -l6
+[1.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mani123/jackal_ws/build/jackal_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --install /home/mani123/jackal_ws/build/jackal_msgs
+[1.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mani123/jackal_ws/build/jackal_simulator' returned '0': CMAKE_PREFIX_PATH=/home/mani123/jackal_ws/install/jackal_gazebo:/home/mani123/jackal_ws/install/jackal_control:/home/mani123/jackal_ws/install/jackal_description:/home/mani123/jackal_ws/install/jackal_desktop:/home/mani123/jackal_ws/install/jackal_viz:/home/mani123/jackal_ws/install/jackal_simulator:/home/mani123/jackal_ws/install/jackal_navigation:/home/mani123/jackal_ws/install/jackal_msgs:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --build /home/mani123/jackal_ws/build/jackal_simulator -- -j6 -l6
+[1.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mani123/jackal_ws/build/jackal_simulator': CMAKE_PREFIX_PATH=/home/mani123/jackal_ws/install/jackal_gazebo:/home/mani123/jackal_ws/install/jackal_control:/home/mani123/jackal_ws/install/jackal_description:/home/mani123/jackal_ws/install/jackal_desktop:/home/mani123/jackal_ws/install/jackal_viz:/home/mani123/jackal_ws/install/jackal_simulator:/home/mani123/jackal_ws/install/jackal_navigation:/home/mani123/jackal_ws/install/jackal_msgs:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --install /home/mani123/jackal_ws/build/jackal_simulator
+[1.203s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jackal_simulator)
+[1.204s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_simulator' for CMake module files
+[1.205s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_simulator' for CMake config files
+[1.205s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_simulator', 'cmake_prefix_path')
+[1.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_simulator/share/jackal_simulator/hook/cmake_prefix_path.ps1'
+[1.206s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mani123/jackal_ws/install/jackal_simulator/share/jackal_simulator/hook/cmake_prefix_path.dsv'
+[1.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_simulator/share/jackal_simulator/hook/cmake_prefix_path.sh'
+[1.207s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_simulator/bin'
+[1.207s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_simulator/lib/pkgconfig/jackal_simulator.pc'
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_simulator/lib/python3.8/site-packages'
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_simulator/bin'
+[1.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_simulator/share/jackal_simulator/package.ps1'
+[1.209s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mani123/jackal_ws/install/jackal_simulator/share/jackal_simulator/package.dsv'
+[1.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_simulator/share/jackal_simulator/package.sh'
+[1.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_simulator/share/jackal_simulator/package.bash'
+[1.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_simulator/share/jackal_simulator/package.zsh'
+[1.210s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mani123/jackal_ws/install/jackal_simulator/share/colcon-core/packages/jackal_simulator)
+[1.211s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jackal_simulator)
+[1.211s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_simulator' for CMake module files
+[1.218s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_simulator' for CMake config files
+[1.218s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_simulator', 'cmake_prefix_path')
+[1.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_simulator/share/jackal_simulator/hook/cmake_prefix_path.ps1'
+[1.219s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mani123/jackal_ws/install/jackal_simulator/share/jackal_simulator/hook/cmake_prefix_path.dsv'
+[1.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_simulator/share/jackal_simulator/hook/cmake_prefix_path.sh'
+[1.221s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_simulator/bin'
+[1.221s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_simulator/lib/pkgconfig/jackal_simulator.pc'
+[1.221s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_simulator/lib/python3.8/site-packages'
+[1.221s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_simulator/bin'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_simulator/share/jackal_simulator/package.ps1'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mani123/jackal_ws/install/jackal_simulator/share/jackal_simulator/package.dsv'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_simulator/share/jackal_simulator/package.sh'
+[1.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_simulator/share/jackal_simulator/package.bash'
+[1.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_simulator/share/jackal_simulator/package.zsh'
+[1.224s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mani123/jackal_ws/install/jackal_simulator/share/colcon-core/packages/jackal_simulator)
+[1.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mani123/jackal_ws/build/jackal_simulator' returned '0': CMAKE_PREFIX_PATH=/home/mani123/jackal_ws/install/jackal_gazebo:/home/mani123/jackal_ws/install/jackal_control:/home/mani123/jackal_ws/install/jackal_description:/home/mani123/jackal_ws/install/jackal_desktop:/home/mani123/jackal_ws/install/jackal_viz:/home/mani123/jackal_ws/install/jackal_simulator:/home/mani123/jackal_ws/install/jackal_navigation:/home/mani123/jackal_ws/install/jackal_msgs:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --install /home/mani123/jackal_ws/build/jackal_simulator
+[1.308s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jackal_msgs)
+[1.308s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_msgs' for CMake module files
+[1.309s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_msgs' for CMake config files
+[1.309s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_msgs', 'cmake_prefix_path')
+[1.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/cmake_prefix_path.ps1'
+[1.310s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mani123/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/cmake_prefix_path.dsv'
+[1.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/cmake_prefix_path.sh'
+[1.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mani123/jackal_ws/build/jackal_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --install /home/mani123/jackal_ws/build/jackal_msgs
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_msgs/lib'
+[1.312s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_msgs', 'ld_library_path_lib')
+[1.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/ld_library_path_lib.ps1'
+[1.313s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mani123/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/ld_library_path_lib.dsv'
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/ld_library_path_lib.sh'
+[1.314s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_msgs/bin'
+[1.314s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_msgs/lib/pkgconfig/jackal_msgs.pc'
+[1.314s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_msgs/lib/python3.8/site-packages'
+[1.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_msgs', 'pythonpath')
+[1.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/pythonpath.ps1'
+[1.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mani123/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/pythonpath.dsv'
+[1.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/pythonpath.sh'
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_msgs/bin'
+[1.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_msgs/share/jackal_msgs/package.ps1'
+[1.317s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mani123/jackal_ws/install/jackal_msgs/share/jackal_msgs/package.dsv'
+[1.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_msgs/share/jackal_msgs/package.sh'
+[1.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_msgs/share/jackal_msgs/package.bash'
+[1.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_msgs/share/jackal_msgs/package.zsh'
+[1.319s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mani123/jackal_ws/install/jackal_msgs/share/colcon-core/packages/jackal_msgs)
+[1.320s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jackal_msgs)
+[1.320s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_msgs' for CMake module files
+[1.320s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_msgs' for CMake config files
+[1.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_msgs', 'cmake_prefix_path')
+[1.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/cmake_prefix_path.ps1'
+[1.322s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mani123/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/cmake_prefix_path.dsv'
+[1.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/cmake_prefix_path.sh'
+[1.323s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_msgs/lib'
+[1.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_msgs', 'ld_library_path_lib')
+[1.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/ld_library_path_lib.ps1'
+[1.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mani123/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/ld_library_path_lib.dsv'
+[1.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/ld_library_path_lib.sh'
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_msgs/bin'
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_msgs/lib/pkgconfig/jackal_msgs.pc'
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_msgs/lib/python3.8/site-packages'
+[1.325s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_msgs', 'pythonpath')
+[1.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/pythonpath.ps1'
+[1.325s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mani123/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/pythonpath.dsv'
+[1.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/pythonpath.sh'
+[1.326s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_msgs/bin'
+[1.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_msgs/share/jackal_msgs/package.ps1'
+[1.327s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mani123/jackal_ws/install/jackal_msgs/share/jackal_msgs/package.dsv'
+[1.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_msgs/share/jackal_msgs/package.sh'
+[1.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_msgs/share/jackal_msgs/package.bash'
+[1.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_msgs/share/jackal_msgs/package.zsh'
+[1.329s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mani123/jackal_ws/install/jackal_msgs/share/colcon-core/packages/jackal_msgs)
+[1.330s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mani123/jackal_ws/src/jackal_desktop/jackal_desktop' with build type 'ament_cmake'
+[1.330s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mani123/jackal_ws/src/jackal_desktop/jackal_desktop'
+[1.331s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.331s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mani123/jackal_ws/build/jackal_desktop': CMAKE_PREFIX_PATH=/home/mani123/jackal_ws/install/jackal_viz:/home/mani123/jackal_ws/install/jackal_msgs:/home/mani123/jackal_ws/install/jackal_description:/home/mani123/jackal_ws/install/jackal_desktop:/home/mani123/jackal_ws/install/jackal_simulator:/home/mani123/jackal_ws/install/jackal_navigation:/home/mani123/jackal_ws/install/jackal_gazebo:/home/mani123/jackal_ws/install/jackal_control:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) PYTHONPATH=/home/mani123/jackal_ws/install/jackal_msgs/lib/python3.8/site-packages:/home/mani123/anaconda3/envs/ros2_env/lib/python3.8/site-packages:/home/mani123/jackal_ws/build/jackal_bbl:/home/mani123/jackal_ws/install/jackal_bbl/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/path/to/your/workspace/safe_bbl:/home/mani123/anaconda3/envs/ros2_env/lib/python3.8/site-packages/sdf_marching/__init__.py:/home/mani123/safe_bubble_cover/src /usr/bin/cmake --build /home/mani123/jackal_ws/build/jackal_desktop -- -j6 -l6
+[1.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mani123/jackal_ws/src/jackal_bbl': CMAKE_PREFIX_PATH=/home/mani123/jackal_ws/install/jackal_viz:/home/mani123/jackal_ws/install/jackal_description:/home/mani123/jackal_ws/install/jackal_desktop:/home/mani123/jackal_ws/install/jackal_simulator:/home/mani123/jackal_ws/install/jackal_navigation:/home/mani123/jackal_ws/install/jackal_msgs:/home/mani123/jackal_ws/install/jackal_gazebo:/home/mani123/jackal_ws/install/jackal_control CONDA_PROMPT_MODIFIER=(ros2_env) PYTHONPATH=/home/mani123/jackal_ws/build/jackal_bbl/prefix_override:/home/mani123/anaconda3/envs/ros2_env/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/mani123/jackal_ws/install/jackal_bbl/lib/python3.8/site-packages:${PYTHONPATH} /home/mani123/anaconda3/envs/ros2_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/jackal_bbl build --build-base /home/mani123/jackal_ws/build/jackal_bbl/build install --record /home/mani123/jackal_ws/build/jackal_bbl/install.log --install-scripts $base/lib/jackal_bbl --single-version-externally-managed install_data
+[1.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mani123/jackal_ws/build/jackal_desktop' returned '0': CMAKE_PREFIX_PATH=/home/mani123/jackal_ws/install/jackal_viz:/home/mani123/jackal_ws/install/jackal_msgs:/home/mani123/jackal_ws/install/jackal_description:/home/mani123/jackal_ws/install/jackal_desktop:/home/mani123/jackal_ws/install/jackal_simulator:/home/mani123/jackal_ws/install/jackal_navigation:/home/mani123/jackal_ws/install/jackal_gazebo:/home/mani123/jackal_ws/install/jackal_control:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) PYTHONPATH=/home/mani123/jackal_ws/install/jackal_msgs/lib/python3.8/site-packages:/home/mani123/anaconda3/envs/ros2_env/lib/python3.8/site-packages:/home/mani123/jackal_ws/build/jackal_bbl:/home/mani123/jackal_ws/install/jackal_bbl/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/path/to/your/workspace/safe_bbl:/home/mani123/anaconda3/envs/ros2_env/lib/python3.8/site-packages/sdf_marching/__init__.py:/home/mani123/safe_bubble_cover/src /usr/bin/cmake --build /home/mani123/jackal_ws/build/jackal_desktop -- -j6 -l6
+[1.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mani123/jackal_ws/build/jackal_desktop': CMAKE_PREFIX_PATH=/home/mani123/jackal_ws/install/jackal_viz:/home/mani123/jackal_ws/install/jackal_msgs:/home/mani123/jackal_ws/install/jackal_description:/home/mani123/jackal_ws/install/jackal_desktop:/home/mani123/jackal_ws/install/jackal_simulator:/home/mani123/jackal_ws/install/jackal_navigation:/home/mani123/jackal_ws/install/jackal_gazebo:/home/mani123/jackal_ws/install/jackal_control:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) PYTHONPATH=/home/mani123/jackal_ws/install/jackal_msgs/lib/python3.8/site-packages:/home/mani123/anaconda3/envs/ros2_env/lib/python3.8/site-packages:/home/mani123/jackal_ws/build/jackal_bbl:/home/mani123/jackal_ws/install/jackal_bbl/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/path/to/your/workspace/safe_bbl:/home/mani123/anaconda3/envs/ros2_env/lib/python3.8/site-packages/sdf_marching/__init__.py:/home/mani123/safe_bubble_cover/src /usr/bin/cmake --install /home/mani123/jackal_ws/build/jackal_desktop
+[1.484s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jackal_desktop)
+[1.484s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_desktop' for CMake module files
+[1.485s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_desktop' for CMake config files
+[1.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_desktop', 'cmake_prefix_path')
+[1.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_desktop/share/jackal_desktop/hook/cmake_prefix_path.ps1'
+[1.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mani123/jackal_ws/build/jackal_desktop' returned '0': CMAKE_PREFIX_PATH=/home/mani123/jackal_ws/install/jackal_viz:/home/mani123/jackal_ws/install/jackal_msgs:/home/mani123/jackal_ws/install/jackal_description:/home/mani123/jackal_ws/install/jackal_desktop:/home/mani123/jackal_ws/install/jackal_simulator:/home/mani123/jackal_ws/install/jackal_navigation:/home/mani123/jackal_ws/install/jackal_gazebo:/home/mani123/jackal_ws/install/jackal_control:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) PYTHONPATH=/home/mani123/jackal_ws/install/jackal_msgs/lib/python3.8/site-packages:/home/mani123/anaconda3/envs/ros2_env/lib/python3.8/site-packages:/home/mani123/jackal_ws/build/jackal_bbl:/home/mani123/jackal_ws/install/jackal_bbl/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/path/to/your/workspace/safe_bbl:/home/mani123/anaconda3/envs/ros2_env/lib/python3.8/site-packages/sdf_marching/__init__.py:/home/mani123/safe_bubble_cover/src /usr/bin/cmake --install /home/mani123/jackal_ws/build/jackal_desktop
+[1.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mani123/jackal_ws/install/jackal_desktop/share/jackal_desktop/hook/cmake_prefix_path.dsv'
+[1.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_desktop/share/jackal_desktop/hook/cmake_prefix_path.sh'
+[1.488s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_desktop/bin'
+[1.488s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_desktop/lib/pkgconfig/jackal_desktop.pc'
+[1.488s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_desktop/lib/python3.8/site-packages'
+[1.489s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_desktop/bin'
+[1.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_desktop/share/jackal_desktop/package.ps1'
+[1.489s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mani123/jackal_ws/install/jackal_desktop/share/jackal_desktop/package.dsv'
+[1.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_desktop/share/jackal_desktop/package.sh'
+[1.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_desktop/share/jackal_desktop/package.bash'
+[1.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_desktop/share/jackal_desktop/package.zsh'
+[1.491s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mani123/jackal_ws/install/jackal_desktop/share/colcon-core/packages/jackal_desktop)
+[1.492s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jackal_desktop)
+[1.492s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_desktop' for CMake module files
+[1.492s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_desktop' for CMake config files
+[1.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_desktop', 'cmake_prefix_path')
+[1.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_desktop/share/jackal_desktop/hook/cmake_prefix_path.ps1'
+[1.493s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mani123/jackal_ws/install/jackal_desktop/share/jackal_desktop/hook/cmake_prefix_path.dsv'
+[1.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_desktop/share/jackal_desktop/hook/cmake_prefix_path.sh'
+[1.494s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_desktop/bin'
+[1.494s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_desktop/lib/pkgconfig/jackal_desktop.pc'
+[1.494s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_desktop/lib/python3.8/site-packages'
+[1.494s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_desktop/bin'
+[1.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_desktop/share/jackal_desktop/package.ps1'
+[1.495s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mani123/jackal_ws/install/jackal_desktop/share/jackal_desktop/package.dsv'
+[1.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_desktop/share/jackal_desktop/package.sh'
+[1.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_desktop/share/jackal_desktop/package.bash'
+[1.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_desktop/share/jackal_desktop/package.zsh'
+[1.497s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mani123/jackal_ws/install/jackal_desktop/share/colcon-core/packages/jackal_desktop)
+[1.856s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_bbl' for CMake module files
+[1.857s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_bbl' for CMake config files
+[1.857s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_bbl/lib'
+[1.858s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_bbl/bin'
+[1.858s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_bbl/lib/pkgconfig/jackal_bbl.pc'
+[1.858s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_bbl/lib/python3.8/site-packages'
+[1.858s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_bbl', 'pythonpath')
+[1.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_bbl/share/jackal_bbl/hook/pythonpath.ps1'
+[1.859s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mani123/jackal_ws/install/jackal_bbl/share/jackal_bbl/hook/pythonpath.dsv'
+[1.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mani123/jackal_ws/src/jackal_bbl' returned '0': CMAKE_PREFIX_PATH=/home/mani123/jackal_ws/install/jackal_viz:/home/mani123/jackal_ws/install/jackal_description:/home/mani123/jackal_ws/install/jackal_desktop:/home/mani123/jackal_ws/install/jackal_simulator:/home/mani123/jackal_ws/install/jackal_navigation:/home/mani123/jackal_ws/install/jackal_msgs:/home/mani123/jackal_ws/install/jackal_gazebo:/home/mani123/jackal_ws/install/jackal_control CONDA_PROMPT_MODIFIER=(ros2_env) PYTHONPATH=/home/mani123/jackal_ws/build/jackal_bbl/prefix_override:/home/mani123/anaconda3/envs/ros2_env/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/mani123/jackal_ws/install/jackal_bbl/lib/python3.8/site-packages:${PYTHONPATH} /home/mani123/anaconda3/envs/ros2_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/jackal_bbl build --build-base /home/mani123/jackal_ws/build/jackal_bbl/build install --record /home/mani123/jackal_ws/build/jackal_bbl/install.log --install-scripts $base/lib/jackal_bbl --single-version-externally-managed install_data
+[1.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mani123/jackal_ws/install/jackal_bbl/share/jackal_bbl/hook/pythonpath.sh'
+[1.860s] Level 1:colcon.colcon_core.environment:checking '/home/mani123/jackal_ws/install/jackal_bbl/bin'
+[1.860s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jackal_bbl)
+[1.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_bbl/share/jackal_bbl/package.ps1'
+[1.861s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mani123/jackal_ws/install/jackal_bbl/share/jackal_bbl/package.dsv'
+[1.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_bbl/share/jackal_bbl/package.sh'
+[1.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_bbl/share/jackal_bbl/package.bash'
+[1.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/mani123/jackal_ws/install/jackal_bbl/share/jackal_bbl/package.zsh'
+[1.863s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mani123/jackal_ws/install/jackal_bbl/share/colcon-core/packages/jackal_bbl)
+[1.863s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.864s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.864s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.864s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.866s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[1.866s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.867s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.867s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify_send'
+[1.908s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.909s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mani123/jackal_ws/install/local_setup.ps1'
+[1.910s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mani123/jackal_ws/install/_local_setup_util_ps1.py'
+[1.912s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mani123/jackal_ws/install/setup.ps1'
+[1.916s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mani123/jackal_ws/install/local_setup.sh'
+[1.916s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mani123/jackal_ws/install/_local_setup_util_sh.py'
+[1.918s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mani123/jackal_ws/install/setup.sh'
+[1.919s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mani123/jackal_ws/install/local_setup.bash'
+[1.919s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mani123/jackal_ws/install/setup.bash'
+[1.921s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mani123/jackal_ws/install/local_setup.zsh'
+[1.922s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mani123/jackal_ws/install/setup.zsh'

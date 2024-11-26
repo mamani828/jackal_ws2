@@ -1,0 +1,32 @@
+[0.072s] Invoking command in '/home/mani123/jackal_ws/build/jackal_control': CMAKE_PREFIX_PATH=/home/mani123/jackal_ws/install/jackal_description:/home/mani123/jackal_ws/install/jackal_desktop:/home/mani123/jackal_ws/install/jackal_viz:/home/mani123/jackal_ws/install/jackal_simulator:/home/mani123/jackal_ws/install/jackal_navigation:/home/mani123/jackal_ws/install/jackal_msgs:/home/mani123/jackal_ws/install/jackal_gazebo:/home/mani123/jackal_ws/install/jackal_control:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --build /home/mani123/jackal_ws/build/jackal_control -- -j6 -l6
+[0.170s] Invoked command in '/home/mani123/jackal_ws/build/jackal_control' returned '0': CMAKE_PREFIX_PATH=/home/mani123/jackal_ws/install/jackal_description:/home/mani123/jackal_ws/install/jackal_desktop:/home/mani123/jackal_ws/install/jackal_viz:/home/mani123/jackal_ws/install/jackal_simulator:/home/mani123/jackal_ws/install/jackal_navigation:/home/mani123/jackal_ws/install/jackal_msgs:/home/mani123/jackal_ws/install/jackal_gazebo:/home/mani123/jackal_ws/install/jackal_control:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --build /home/mani123/jackal_ws/build/jackal_control -- -j6 -l6
+[0.172s] Invoking command in '/home/mani123/jackal_ws/build/jackal_control': CMAKE_PREFIX_PATH=/home/mani123/jackal_ws/install/jackal_description:/home/mani123/jackal_ws/install/jackal_desktop:/home/mani123/jackal_ws/install/jackal_viz:/home/mani123/jackal_ws/install/jackal_simulator:/home/mani123/jackal_ws/install/jackal_navigation:/home/mani123/jackal_ws/install/jackal_msgs:/home/mani123/jackal_ws/install/jackal_gazebo:/home/mani123/jackal_ws/install/jackal_control:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --install /home/mani123/jackal_ws/build/jackal_control
+[0.199s] -- Install configuration: ""
+[0.199s] -- Up-to-date: /home/mani123/jackal_ws/install/jackal_control/share/jackal_control/config
+[0.199s] -- Up-to-date: /home/mani123/jackal_ws/install/jackal_control/share/jackal_control/config/twist_mux.yaml
+[0.199s] -- Up-to-date: /home/mani123/jackal_ws/install/jackal_control/share/jackal_control/config/teleop_ps4.yaml
+[0.199s] -- Up-to-date: /home/mani123/jackal_ws/install/jackal_control/share/jackal_control/config/control.yaml
+[0.199s] -- Up-to-date: /home/mani123/jackal_ws/install/jackal_control/share/jackal_control/config/localization.yaml
+[0.199s] -- Up-to-date: /home/mani123/jackal_ws/install/jackal_control/share/jackal_control/config/imu_filter.yaml
+[0.199s] -- Up-to-date: /home/mani123/jackal_ws/install/jackal_control/share/jackal_control/config/teleop_interactive_markers.yaml
+[0.200s] -- Up-to-date: /home/mani123/jackal_ws/install/jackal_control/share/jackal_control/config/teleop_logitech.yaml
+[0.200s] -- Up-to-date: /home/mani123/jackal_ws/install/jackal_control/share/jackal_control/launch
+[0.200s] -- Up-to-date: /home/mani123/jackal_ws/install/jackal_control/share/jackal_control/launch/teleop_base.launch.py
+[0.200s] -- Up-to-date: /home/mani123/jackal_ws/install/jackal_control/share/jackal_control/launch/control.launch.py
+[0.200s] -- Up-to-date: /home/mani123/jackal_ws/install/jackal_control/share/jackal_control/launch/teleop_joy.launch.py
+[0.200s] -- Up-to-date: /home/mani123/jackal_ws/install/jackal_control/share/ament_index/resource_index/package_run_dependencies/jackal_control
+[0.200s] -- Up-to-date: /home/mani123/jackal_ws/install/jackal_control/share/ament_index/resource_index/parent_prefix_path/jackal_control
+[0.200s] -- Up-to-date: /home/mani123/jackal_ws/install/jackal_control/share/jackal_control/environment/ament_prefix_path.sh
+[0.200s] -- Up-to-date: /home/mani123/jackal_ws/install/jackal_control/share/jackal_control/environment/ament_prefix_path.dsv
+[0.200s] -- Up-to-date: /home/mani123/jackal_ws/install/jackal_control/share/jackal_control/environment/path.sh
+[0.200s] -- Up-to-date: /home/mani123/jackal_ws/install/jackal_control/share/jackal_control/environment/path.dsv
+[0.201s] -- Up-to-date: /home/mani123/jackal_ws/install/jackal_control/share/jackal_control/local_setup.bash
+[0.201s] -- Up-to-date: /home/mani123/jackal_ws/install/jackal_control/share/jackal_control/local_setup.sh
+[0.201s] -- Up-to-date: /home/mani123/jackal_ws/install/jackal_control/share/jackal_control/local_setup.zsh
+[0.201s] -- Up-to-date: /home/mani123/jackal_ws/install/jackal_control/share/jackal_control/local_setup.dsv
+[0.201s] -- Installing: /home/mani123/jackal_ws/install/jackal_control/share/jackal_control/package.dsv
+[0.210s] -- Up-to-date: /home/mani123/jackal_ws/install/jackal_control/share/ament_index/resource_index/packages/jackal_control
+[0.210s] -- Up-to-date: /home/mani123/jackal_ws/install/jackal_control/share/jackal_control/cmake/jackal_controlConfig.cmake
+[0.211s] -- Up-to-date: /home/mani123/jackal_ws/install/jackal_control/share/jackal_control/cmake/jackal_controlConfig-version.cmake
+[0.211s] -- Up-to-date: /home/mani123/jackal_ws/install/jackal_control/share/jackal_control/package.xml
+[0.213s] Invoked command in '/home/mani123/jackal_ws/build/jackal_control' returned '0': CMAKE_PREFIX_PATH=/home/mani123/jackal_ws/install/jackal_description:/home/mani123/jackal_ws/install/jackal_desktop:/home/mani123/jackal_ws/install/jackal_viz:/home/mani123/jackal_ws/install/jackal_simulator:/home/mani123/jackal_ws/install/jackal_navigation:/home/mani123/jackal_ws/install/jackal_msgs:/home/mani123/jackal_ws/install/jackal_gazebo:/home/mani123/jackal_ws/install/jackal_control:/home/mani123/jackal_ws/install/jackal_bbl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --install /home/mani123/jackal_ws/build/jackal_control

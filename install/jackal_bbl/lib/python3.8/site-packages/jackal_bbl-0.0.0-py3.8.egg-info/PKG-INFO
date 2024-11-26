@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: jackal_bbl
+Version: 0.0.0
+Summary: TODO: Package description
+Maintainer: mani123
+Maintainer-email: mani123@todo.todo
+License: TODO: License declaration
+Requires-Dist: setuptools
+Requires-Dist: sdf_marching

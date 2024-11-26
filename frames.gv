@@ -1,0 +1,18 @@
+digraph G {
+"base_link" -> "chassis_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"chassis_link" -> "front_fender_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"mid_mount" -> "front_mount"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"chassis_link" -> "mid_mount"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"chassis_link" -> "imu_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"chassis_link" -> "navsat_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"chassis_link" -> "rear_fender_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"mid_mount" -> "rear_mount"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"chassis_link" -> "front_left_wheel_link"[label=" Broadcaster: default_authority\nAverage rate: 10.203\nBuffer length: 4.9\nMost recent transform: 1732507205.422862\nOldest transform: 1732507200.522455\n"];
+"chassis_link" -> "front_right_wheel_link"[label=" Broadcaster: default_authority\nAverage rate: 10.203\nBuffer length: 4.9\nMost recent transform: 1732507205.422862\nOldest transform: 1732507200.522455\n"];
+"chassis_link" -> "rear_left_wheel_link"[label=" Broadcaster: default_authority\nAverage rate: 10.203\nBuffer length: 4.9\nMost recent transform: 1732507205.422862\nOldest transform: 1732507200.522455\n"];
+"chassis_link" -> "rear_right_wheel_link"[label=" Broadcaster: default_authority\nAverage rate: 10.203\nBuffer length: 4.9\nMost recent transform: 1732507205.422862\nOldest transform: 1732507200.522455\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1732507205.5094163"[ shape=plaintext ] ;
+}->"base_link";
+}

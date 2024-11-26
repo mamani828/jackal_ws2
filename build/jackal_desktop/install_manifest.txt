@@ -1,0 +1,15 @@
+/home/mani123/jackal_ws/install/jackal_desktop/share/ament_index/resource_index/package_run_dependencies/jackal_desktop
+/home/mani123/jackal_ws/install/jackal_desktop/share/ament_index/resource_index/parent_prefix_path/jackal_desktop
+/home/mani123/jackal_ws/install/jackal_desktop/share/jackal_desktop/environment/ament_prefix_path.sh
+/home/mani123/jackal_ws/install/jackal_desktop/share/jackal_desktop/environment/ament_prefix_path.dsv
+/home/mani123/jackal_ws/install/jackal_desktop/share/jackal_desktop/environment/path.sh
+/home/mani123/jackal_ws/install/jackal_desktop/share/jackal_desktop/environment/path.dsv
+/home/mani123/jackal_ws/install/jackal_desktop/share/jackal_desktop/local_setup.bash
+/home/mani123/jackal_ws/install/jackal_desktop/share/jackal_desktop/local_setup.sh
+/home/mani123/jackal_ws/install/jackal_desktop/share/jackal_desktop/local_setup.zsh
+/home/mani123/jackal_ws/install/jackal_desktop/share/jackal_desktop/local_setup.dsv
+/home/mani123/jackal_ws/install/jackal_desktop/share/jackal_desktop/package.dsv
+/home/mani123/jackal_ws/install/jackal_desktop/share/ament_index/resource_index/packages/jackal_desktop
+/home/mani123/jackal_ws/install/jackal_desktop/share/jackal_desktop/cmake/jackal_desktopConfig.cmake
+/home/mani123/jackal_ws/install/jackal_desktop/share/jackal_desktop/cmake/jackal_desktopConfig-version.cmake
+/home/mani123/jackal_ws/install/jackal_desktop/share/jackal_desktop/package.xml
